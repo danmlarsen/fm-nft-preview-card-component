@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NFT preview card component</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <main class="min-h-screen flex items-center justify-center bg-verydark-blue-900 text-soft-blue">
+            <article class="mx-6 mb-7 max-w-[350px] bg-verydark-blue-700 p-6 rounded-2xl text-lg">
+                <a class="mb-6 relative group block rounded-lg overflow-hidden" href="#">
+                    <img src="images/image-equilibrium.jpg" alt="Equilibrium image" />
+                    <div class="absolute top-0 left-0 right-0 bottom-0 bg-cyan opacity-0 transition duration-300 group-hover:opacity-50"></div>
+                    <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 transition duration-300 group-hover:opacity-100" src="images/icon-view.svg" alt="Eye icon" />
+                </a>
+                <h1 class="mb-4 text-white text-[22px] font-semibold"><a class="transition duration-200 hover:text-cyan" href="#">Equilibrium #3429</a></h1>
+                <p class="mb-6 font-light leading-[1.4444]">Our Equilibrium collection promotes balance and calm.</p>
+                <div class="flex justify-between mb-6">
+                    <div class="flex items-center space-x-[6.48px] text-cyan">
+                        <img src="images/icon-ethereum.svg" alt="Ethereum icon" />
+                        <span class="text-base font-semibold">0.041 ETH</span>
+                    </div>
+                    <div class="flex items-center space-x-[7.69px]">
+                        <img src="images/icon-clock.svg" alt="Clock icon" />
+                        <span class="text-base">3 days left</span>
+                    </div>
+                </div>
+                <hr class="mb-4 border-verydark-blue-500" />
+                <div class="flex items-center space-x-4">
+                    <img class="max-h-[33px] border border-white rounded-full" src="images/image-avatar.png" alt="Avatar of Jules Wyvern" />
+                    <p class="text-base">Creation of <a href="#" class="text-white transition duration-200 hover:text-cyan">Jules Wyvern</a></p>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>
